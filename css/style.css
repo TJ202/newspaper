@@ -1,0 +1,132 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 1rem 30vh 1rem 30vh;
+    text-align: justify;
+}
+
+b {
+    font-size: 2vh;
+}
+
+hr {
+    margin: 0;
+}
+
+h1 {
+    font-size: 10vh;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.mir {
+    transform: scaleX(-1);
+}
+
+h2 {
+    font-size: 2.3vw;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 2.5vh;
+    margin-bottom: 0;
+}
+
+em {
+    color: slategrey;
+}
+
+i {
+    color: olivedrab;
+}
+
+.bar {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    padding: 0;
+    font-size: 2vh;
+    background-color: black;
+    color: white;
+}
+
+.bar_content {
+    display: block;
+    width: 100%;
+    transform: translateX(100%);
+    animation: move 25s linear infinite;
+}
+
+
+/* Create the animation */
+
+@keyframes move {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.w1-c2 img {
+    padding: 0;
+    height: 60vh;
+}
+
+.w1-c1 {
+    padding: 0rem 3rem 0rem 0;
+    width: 65%;
+}
+
+.w2-c1 {
+    width: 60%;
+}
+
+.w2-c1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.w2-c2 {
+    padding: 0rem 0rem 0rem 2rem;
+    width: 40%;
+}
+
+.w3-c1,
+.w3-c2,
+.w3-c3 {
+    width: 33%;
+}
+
+.w3-c1,
+.w3-c2 {
+    padding: 0 2rem 0 0;
+}
+
+.w3-c1 img,
+.w3-c2 img,
+.w3-c3 img {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.last {
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 0;
+    font-size: 2vh;
+}
